@@ -43,81 +43,71 @@ header nav a:not(:last-child) {
     margin-right: 30px;
 }
 
-.main {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 150px;
+main {
+    margin-top: 160px;
 }
 
-.main-left-side h1 {
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+}
+
+.contact-form h1 {
     font: 500 60px 'DM Sans';
-    color: #181717;
-    width: 450px;
 }
 
-.arrow {
-    background-image: url(../img/↓.svg);
-    width: 33px;
-    height: 38px;
-    position: relative;
-    top: 30px;
-    bottom: 50px;
-}
-
-.main-left-side {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 300px;
-}
-
-.main p {
-    font: 400 32px 'DM Sans';
+.contact-form p {
     color: #606060;
-    margin-top: 60px;
 }
 
-.project-left-side,
-.project-name-left-side-2,
-.project-name-left-side-3 {
+.contact-form input {
+    width: 676px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    padding-left: 22px;
+}
+
+.btn {
+    padding: 8px 0;
+    background: #000000;
+    border-radius: 5px;
+    width: 170px;
+    height: 50px;
+}
+
+.btn p {
+    color: #FFFFFF;
+    padding: 10px 60px;
+    text-align: center;
+    font: 700 25px 'DM Sans';
+}
+
+.contact-info {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 230px;
+    margin: auto;
+    max-width: 400px;
 }
 
-.project-img {
-    background-image: url(../img/Thumbnail.png);
-    width: 640px;
-    height: 360px;
-}
-
-.projects {
-    margin-top: 120px;
-}
-
-.container-project,
-.container-project-name-2,
-.container-project-name-3 {
-    display: flex;
-    justify-content: space-between;
-}
-
-.link {
-    border-bottom: 2px solid black;
-    width: 290px;
-}
-
-.hr-1 {
-    margin-top: 100px;
-    margin-bottom: 110px;
-    border: 2px solid #181717;
+.contact-info p {
+    color: #606060;
 }
 
 footer {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-top: 100px;
+    margin-top: 110px;
 }
 
 footer div {
@@ -130,7 +120,7 @@ footer div {
 
 }
 
-footer div p{
+footer div p {
     font: 500 22px 'DM Sans';
     color: #181717;
 }
