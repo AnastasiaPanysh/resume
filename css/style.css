@@ -11,8 +11,51 @@ body {
     width: 1120px;
     background-color: #E5E5E5;
 }
-a{
+
+@media screen and (max-width:1010px) {
+
+    /* header nav a {
+		display: none;
+	}
+
+
+	header nav {
+		position: relative;
+		left: -20px;
+
+	} */
+
+/* хотела сделать сжатую иконку, не получилось */
+    /* nav a.icon {
+        position: absolute;
+        top: 0px;
+        right: -50px;
+    }
+
+
+    nav  a.icon {
+        position: absolute;
+        top: 0px;
+        right: -50px;
+    }
+
+    nav a {
+        float: none;
+        display: block;
+        text-align: left;
+    } */
+
+}
+
+nav a.icon {
+    display: none;
+}
+
+
+a {
     text-decoration: none;
+    color: #181717;
+    ;
 }
 
 .img-logo {
@@ -130,7 +173,7 @@ footer div {
 
 }
 
-footer div p{
+footer div p {
     font: 500 22px 'DM Sans';
     color: #181717;
 }
