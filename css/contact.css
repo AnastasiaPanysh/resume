@@ -108,7 +108,7 @@ section {
 footer {
     display: flex;
     justify-content: space-between;
-    margin-top: 110px;
+    margin-top: 100px;
 }
 
 footer div {
@@ -128,4 +128,35 @@ footer div p {
 
 footer div p:not(:last-child) {
     margin-right: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    * {
+        font: 400 18px 'DM Sans';
+    }
+
+    body {
+        margin: 0 15px;
+    }
+
+   section {
+        flex-direction: column;
+    }
+
+     .contact-form {
+        text-align: center;
+    }
+
+    .contact-info{
+        margin-top: 30px;
+    }
+     
+    .btn{
+        margin-left: 210px;
+    }
+
+    header,
+    footer {
+        width: 600px;
+    }
 }

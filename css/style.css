@@ -180,8 +180,8 @@ a {
         display: none;
     }
 
-    header {
+    header,
+    footer {
         width: 600px;
     }
-    
 }
